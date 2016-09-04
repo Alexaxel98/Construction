@@ -1,0 +1,12 @@
+<h2>
+    Content Change
+</h2>
+
+<form ng-submit = "addPost()">
+    <input type = "text" ng-model="title"></input>
+    <button type="submit">post</button>
+</form>
+
+<div ng-repeat="post in posts">
+    {{post.content}}
+</div>
